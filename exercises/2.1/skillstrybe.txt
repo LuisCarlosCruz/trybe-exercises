@@ -1,4 +1,5 @@
-Primeiro módulo Trybe:
-- unix;
-- bash;
-- git;
+O que eu vou aprender na Trybe:
+
+- Unix
+- Bash
+- Git
