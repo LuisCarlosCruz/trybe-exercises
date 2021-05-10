@@ -1,5 +1,4 @@
 Primeiro módulo Trybe:
-
--Unix;
--Bash;
--git;
+- unix;
+- bash;
+- git;
