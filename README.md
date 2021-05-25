@@ -16,46 +16,22 @@ metodologias ágeis e habilidades comportamentais.
 
 ### Bloco 1 - Unix & Bash
 
-[x] Fundamentos de Desenvolvimento Web
-[x] Introdução - Unix & Shell
-[x] Unix & Bash - Parte 1
-[x] Unix & Bash - Parte 2
+-[x] Fundamentos de Desenvolvimento Web -[x] Introdução - Unix & Shell -[x] Unix & Bash - Parte 1 -[x] Unix & Bash - Parte 2
 
 ### Bloco 2 - Git & GitHub
 
-[x] O que é e para que serve?
-[x] Entendendo os comandos
-[x] Internet - Entendendo como ela funciona
+-[x] O que é e para que serve? -[x] Entendendo os comandos -[x] Internet - Entendendo como ela funciona
 
 ### Bloco 3 - Introdução - HTML & CSS
 
-[x] Introdução - HTML & CSS
-[x] HTML & CSS - Estruturas de página
-[x] HTML & CSS - Primeiros passos em CSS
-[x] HTML & CSS - Seletores e posicionamento
-[x] HTML Semântico
-[x] [Projeto - HTML & CSS](https://github.com/tryber/sd-013-b-project-lessons-learned/compare/LuisCruz-lessons-learned-project)
+-[x] Introdução - HTML & CSS -[x] HTML & CSS - Estruturas de página -[x] HTML & CSS - Primeiros passos em CSS -[x] HTML & CSS - Seletores e posicionamento -[x] HTML Semântico -[x] [Projeto - HTML & CSS](https://github.com/tryber/sd-013-b-project-lessons-learned/compare/LuisCruz-lessons-learned-project)
 
 ### Bloco 4 - Introdução à JavaScript e Lógica de Programação
 
-[x] Introdução - JavaScript
-[x] JavaScript - Primeiros passos
-[x] JavaScript - Array e loop for
-[x] JavaScript - Lógica de Programação e Algoritmos
-[x] JavaScript - Objetos e funções
-[x] Projeto - Playground Functions
+-[x] Introdução - JavaScript -[x] JavaScript - Primeiros passos -[x] JavaScript - Array e loop for -[x] JavaScript - Lógica de Programação e Algoritmos -[x] JavaScript - Objetos e funções -[x] Projeto - Playground Functions
 
 ### Bloco 5 - JavaScript: DOM, Eventos e Web Storage
 
-[ ] JavaScript - DOM e seletores
-[ ] JavaScript - Trabalhando com elementos
-[ ] JavaScript - Eventos
-[ ] JavaScript - Web Storage
-[ ] Fundamentos - JavaScript - Projetos
-[ ] Projeto - Arte com Pixels
-[ ] Projeto - Lista de tarefas
-[ ] Projeto Bônus - Meme Generator
-[ ] Projeto Bônus - Adivinhe a Cor
-[ ] Projeto Bônus - Carta Misteriosa
+-[ ] JavaScript - DOM e seletores -[ ] JavaScript - Trabalhando com elementos -[ ] JavaScript - Eventos -[ ] JavaScript - Web Storage -[ ] Fundamentos - JavaScript - Projetos -[ ] Projeto - Arte com Pixels -[ ] Projeto - Lista de tarefas -[ ] Projeto Bônus - Meme Generator -[ ] Projeto Bônus - Adivinhe a Cor -[ ] Projeto Bônus - Carta Misteriosa
 
 ### [...]
