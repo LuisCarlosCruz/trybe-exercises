@@ -64,5 +64,3 @@ let medals = { golden: 2, silver: 3 };
 #### Script05.js
 
 > Faça um novo for/in , mas agora mostre todos os valores das chaves do objeto.
-
-####
