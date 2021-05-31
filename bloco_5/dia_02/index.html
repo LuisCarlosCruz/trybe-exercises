@@ -59,34 +59,62 @@
     
     <script>
 
+      // 1-
       let h1 = document.createElement('h1');
       h1.innerHTML = 'Exercício 5.2 - JavaScript DOM';
       document.body.appendChild(h1);
-      
+
+      // 2-
       let div = document.createElement('div');
       div.className = 'main-content';
       document.body.appendChild(div);
 
+      // 3-
       let div2 = document.createElement('div');
       div2.className = 'center-content';
       div.appendChild(div2);
 
+      // 4-
       let p = document.createElement('p');
       p.innerHTML = 'Aqui vai o primeiro parágrafo dentro da segunda div.';
       div2.appendChild(p);
 
+      // 5-
       let divLeftCont = document.createElement('div');
       divLeftCont.className = 'left-content';
       div.appendChild(divLeftCont);
 
+      // 6-
       let divRightCont = document.createElement('div');
       divRightCont.className = 'right-content';
       div.appendChild(divRightCont);
 
+      // 7-
       let img = document.createElement('IMG');
       img.setAttribute('src', 'https://picsum.photos/200');
       img.className = 'small-image';
       divLeftCont.appendChild(img);
+
+      // 8-
+      let ul = document.createElement('ul');
+      divRightCont.appendChild(ul);
+
+      let n = ['um','dois','três','quatro','cinco','seis','sete','oito','nove','dez'];
+
+      for (let index = 0; index < 10; index += 1){
+        let li = document.createElement('li');
+        ul.appendChild(li);
+        li.innerHTML = n[index];
+      }
+
+      // 9-   
+      let tagh3 = ['primeiro h3','segundo h3','terceiro h3'];
+        
+      for (let index = 0; index < 3; index += 1)  {
+        let elementH3 = document.createElement('h3');
+        div.appendChild(elementH3);
+        elementH3.innerHTML = tagh3[index];
+      }
 
       
 
