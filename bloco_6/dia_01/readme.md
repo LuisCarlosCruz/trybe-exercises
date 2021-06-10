@@ -12,7 +12,7 @@
 
 ### PARTE 02 Criando um formulário de currículo.
 
-Crie um arquivo HTML chamado form.html para o formulário.
+Crie um arquivo HTML para o formulário.
 
 > 1- Crie um `<fieldse>` para os seguintes dados pessoais:
 
