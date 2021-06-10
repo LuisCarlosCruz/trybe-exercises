@@ -33,7 +33,7 @@ Crie um arquivo HTML chamado form.html para o formulário.
   Campo obrigatório
 - Estado - Select
   Todos os estados do Brasil
-  Utilize estruturas de repetição via JavaScript para gerar os <option>
+  Utilize estruturas de repetição via JavaScript para gerar os `<option>`
   Campo obrigatório
 - Tipo - Radio Button
   Casa, Apartamento
