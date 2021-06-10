@@ -18,13 +18,6 @@ for (let index = 0; index < estados.length; index += 1) {
 // PARTE 02
 // Validação da data de início
 
-/* Verificar o formato da data dd/mm/aaaa.
-  O dia deve ser > 0 e <= 31.
-  O mês deve ser > 0 e <= 12.
-  O ano não pode ser negativo.
-  Caso alguma das condições seja inválida no momento do envio do formulário, 
-  exibir via alert uma mensagem de erro contextualizada. */
-
 let dia = document.getElementById('dia');
 let mes = document.getElementById('mes');
 let ano = document.getElementById('ano');
