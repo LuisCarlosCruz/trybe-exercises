@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <form action="" method="GET">
+  <!-- <form action="" method="GET">
     <label for="input-email">Email:
       <input type="email" name="email" autocomplete="off" placeholder="digite o email" id="input-email" required>
     </label>
@@ -19,35 +19,40 @@
     <br>
     <label for="checkbox">
       <input type="checkbox" name="checkbox" id="checkbox"> Lembre-me
-    </label>
+    </label><br>
     <button type="submit">Entrar</button>
   </form>
-  <br>
+  <br> -->
 <!-- -------------------------------------------------------------------------------------------------- -->
   <fieldset>
     <legend>Currículo</legend>
     <label for="nome">Nome:
       <input type="text" name="nome" id="nome" placeholder="digite o nome" maxlength="40" required>
-    </label> <br>
+    </label> <br><br>
     <label for="email">Email:
       <input type="email" name="email" id="email" placeholder="digite o email" maxlength="50" required>
-    </label><br>
+    </label><br><br>
     <label for="cpf">CPF:
-      <input type="text" name="cpf" id="cpf" placeholder="digite o cpf" maxlength="11" required>
-    </label><br>
+      <input type="text" name="cpf" id="cpf" placeholder="digite o CPF" maxlength="11" required>
+    </label><br><br>
     <label for="endereço">Endereço:
-      <textarea name="endereço" id="endereço" cols="20" rows="5" maxlength="200" required></textarea>
-    </label><br>
+      <textarea name="endereço" id="endereço" cols="20" rows="2" maxlength="200" required></textarea>
+    </label><br><br>
     <label for="cidade">Cidade:
       <input type="text" name="cidade" id="cidade" placeholder="digite a cidade" maxlength="28" required>
-    </label><br>
-    <label for="estado">Estado:</label>
+    </label><br><br>
+    <label for="estado">Estado:
       <select name="estado" id="estado">
       </select>
- 
-
+    </label><br><br>
+    <label for="resideCasa">
+      <input type="radio" name="local" id="resideCasa" >Casa
+    </label>
+    <label for="resideApt">
+      <input type="radio" name="local" id="resideApt" >Apartamento
+    </label><br>
   </fieldset>
 
-<script src="/dia_01/script.js"></script>
+<script src="/script.js"></script>
 </body>
 </html>
