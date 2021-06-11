@@ -28,13 +28,15 @@ botao.addEventListener('click', function () {
   if (dia.value == null || dia.value <= 0 || dia.value > 31) {
     alert('dia inválido');
   }
-  if (mes.value <= 0 || mes.value > 12) {
+  if (mes.value == null || mes.value <= 0 || mes.value > 12) {
     alert('mês inválido');
   }
-  if (ano.value < 0 ) {
+  if (ano.value == null || ano.value < 0 ) {
     alert('ano inválido');
   }
 } 
 );
 // -----------------------------------------------------------------------------
 // PARTE 03
+
+
