@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Forms part 02</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+<div class="container">
+
+  <div class="row">
+    <header class="col">
+      <h1>Currículo</h1>
+    </header>
+  </div>
+
+  <form action="GET">
+
+    <div class="row">
+      <label for="nome" class="form-label">Nome Completo:
+        <input class="form-control" type="text" name="nome" id="nome" placeholder="digite o nome" maxlength="40" required>
+      </label> 
+    </div>
+
+    <div class="row">
+      <label class="form-label" for="email">Email:
+        <input class="form-control" type="email" name="email" id="email" placeholder="digite o email" maxlength="50" required>
+      </label> 
+    </div>
+
+    <div class="row">
+
+      <div class="col">
+        <label class="form-label" for="cpf">CPF:
+          <input class="form-control" type="text" name="cpf" id="cpf" placeholder="digite o CPF" maxlength="11" required>
+        </label>
+      </div>
+
+      <div class="col">
+        <label class="form-label" for="cidade">Cidade:
+          <input class="form-control" type="text" name="cidade" id="cidade" placeholder="digite a cidade" maxlength="28" required>
+        </label> 
+      </div>
+
+      <div class="col">
+        <label class="form-label" for="estado">Estado:
+          <select class="btn btn-secondary form-control" name="estado" id="estado"></select>
+        </label>
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div >
+        <label class="form-label" for="resideCasa">
+          <input type="radio" name="local" id="resideCasa" checked>Casa
+        </label>
+      </div>
+
+      <div class="">
+        <label class="form-label" for="resideApt">
+          <input type="radio" name="local" id="resideApt" >Apartamento
+        </label>
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col">
+        <label class="form-label" for="endereço">Endereço:
+          <textarea class="form-control" placeholder="máx 200 caracteres" name="endereço" id="endereço" cols="20" rows="2" maxlength="200" required></textarea>
+        </label> 
+      </div>
+      
+      <div class="col">
+        <label class="form-label" for="resumo">Resumo do currículo: <br>
+          <textarea class="form-control" name="resumo" id="resumo" cols="25" placeholder="máx. 1000 caracteres" rows="2" maxlength="1000" required></textarea>
+        </label> 
+      </div>
+
+    </div>
+
+
+
+    <label class="form-label" for="cargo">Cargo:
+      <input type="text" name="cargo" id="cargo" maxlength="40" required>
+    </label>
+
+    <label class="form-label" for="desCargo">Descrição do Cargo:
+      <input type="text" name="descriçãoCargo" id="desCargo" maxlength="500" required>
+    </label>
+    <br>
+    <label class="form-label" for="dia">Data de início: dia:
+      <input type="number" name="date" id="dia">
+    </label> <b>/</b> 
+
+    <label class="form-label" for="mes"> mês: 
+      <input type="number" name="date" id="mes">
+    </label> <b>/</b> 
+
+    <label class="form-label" for="ano"> ano: 
+      <input type="number" name="date" id="ano">
+    </label>
+
+    <button id="botao" type="submit"> enviar</button>
+    <button type="reset">limpar forms</button>
+
+  </form> 
+  
+</div>  
+
+<script src="/script.js"></script>
+
+</body>
+</html>
