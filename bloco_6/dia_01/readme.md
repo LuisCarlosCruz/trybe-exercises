@@ -56,7 +56,7 @@ Crie um arquivo HTML para o formulário.
   O mês deve ser > 0 e <= 12.
   O ano não pode ser negativo.
   Caso alguma das condições seja inválida no momento do envio do formulário, exibir via alert uma mensagem de erro contextualizada.
-  Campo obrigatório
+  Campo obrigatório.
 
 > 3- Logo abaixo do formulário, crie um botão que:
 

@@ -14,7 +14,6 @@ for (let index = 0; index < estados.length; index += 1) {
   // console.log(estado);
 }
 // -----------------------------------------------------------------------------
-
 // PARTE 02
 // Validação da data de início
 
@@ -22,23 +21,20 @@ let dia = document.getElementById('dia');
 let mes = document.getElementById('mes');
 let ano = document.getElementById('ano');
 
-function validaDia () {
-  if (dia <= 0 || dia > 31) {
+let botao = document.getElementById('botao');
+botao.addEventListener('click', function () {
+
+  // console.log(botao);
+  if (dia.value == null || dia.value <= 0 || dia.value > 31) {
     alert('dia inválido');
   }
-}
-validaDia();
-
-function validaMes () {
-  if (mes <= 0 || mes > 12) {
+  if (mes.value <= 0 || mes.value > 12) {
     alert('mês inválido');
   }
-}
-validaMes();
-
-function validaAno () {
-  if (ano <= 0 ) {
+  if (ano.value < 0 ) {
     alert('ano inválido');
   }
-}
-validaAno();
+} 
+);
+// -----------------------------------------------------------------------------
+// PARTE 03

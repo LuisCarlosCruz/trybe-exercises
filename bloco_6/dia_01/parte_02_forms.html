@@ -3,19 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <title>Forms part 02</title>
-  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <form action="GET">
+
 <!-- QUESTÃO 01 -->
+
   <fieldset>
     <legend>' Currículo '</legend>
     <label for="nome">Nome:
       <input type="text" name="nome" id="nome" placeholder="digite o nome" maxlength="40" required>
-    </label> <!--<br><br> -->
+    </label> 
 
     <label for="email">Email:
       <input type="email" name="email" id="email" placeholder="digite o email" maxlength="50" required>
-    </label> <!--<br><br> -->
+    </label> 
     
     <label for="cpf">CPF:
       <input type="text" name="cpf" id="cpf" placeholder="digite o CPF" maxlength="11" required>
@@ -23,11 +25,11 @@
 
     <label for="endereço">Endereço:
       <textarea name="endereço" id="endereço" cols="20" rows="2" maxlength="200" required></textarea>
-    </label> <!--<br><br> -->
+    </label> 
 
     <label for="cidade">Cidade:
       <input type="text" name="cidade" id="cidade" placeholder="digite a cidade" maxlength="28" required>
-    </label> <!--<br><br> -->
+    </label> 
 
     <label for="estado">Estado:
       <select name="estado" id="estado"></select>
@@ -36,7 +38,7 @@
     <br><br>
 
     <label for="resideCasa">
-      <input type="radio" name="local" id="resideCasa" >Casa
+      <input type="radio" name="local" id="resideCasa" checked>Casa
     </label>
 
     <label for="resideApt">
@@ -49,33 +51,39 @@
   <br>
 
 <!-- QUESTÃO 02 -->
+
   <fieldset>
-    <label for="resumo">Resumo do currículo:
-      <textarea name="resumo" id="resumo" cols="25" rows="2" maxlength="1000" required></textarea>
-    </label> <!--<br><br> -->
+    <label for="resumo">Resumo do currículo: <br>
+      <textarea name="resumo" id="resumo" cols="25" placeholder="máx. 1000 caracteres" rows="2" maxlength="1000" required></textarea>
+    </label> 
 
     <label for="cargo">Cargo:
       <input type="text" name="cargo" id="cargo" maxlength="40" required>
-    </label> <br> <br>
+    </label>
 
     <label for="desCargo">Descrição do Cargo:
       <input type="text" name="descriçãoCargo" id="desCargo" maxlength="500" required>
-    </label><br><br>
-
-    <label for="dia">Data de início: <br>
-      dia: <input type="number" name="date" id="dia" min="1" max="31">
-    </label><br>
-
-    <label for="mes">
-      mes: <input type="number" name="date" id="mes" min="1" max="12">
-    </label><br>
-
-    <label for="ano">
-      ano: <input type="number" name="date" id="ano" min="0">
     </label>
+    <br>
+    <label for="dia">Data de início: dia:
+      <input type="number" name="date" id="dia">
+    </label> <b>/</b> 
+
+    <label for="mes"> mês: 
+      <input type="number" name="date" id="mes">
+    </label> <b>/</b> 
+
+    <label for="ano"> ano: 
+      <input type="number" name="date" id="ano">
+    </label>
+
+    <button id="botao" type="submit"> enviar</button>
 
   </fieldset>
 
+</form>
+
 <script src="/script.js"></script>
+
 </body>
 </html>
