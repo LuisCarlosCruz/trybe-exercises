@@ -20,7 +20,7 @@
   <form action="GET">
 
     <div class="row">
-      <label for="nome" class="form-label">Nome Completo:
+      <label for="nome" class="form-label">Nome Completo: *
         <input class="form-control" type="text" name="nome" id="nome" placeholder="digite o nome" maxlength="40" required>
       </label> 
     </div>
@@ -35,13 +35,13 @@
 
       <div class="col">
         <label class="form-label" for="cpf">CPF:
-          <input class="form-control" type="text" name="cpf" id="cpf" placeholder="digite o CPF" maxlength="11" required>
+          <input class="form-control" type="text" name="cpf" id="cpf" placeholder="digite..." maxlength="11" required>
         </label>
       </div>
 
       <div class="col">
         <label class="form-label" for="cidade">Cidade:
-          <input class="form-control" type="text" name="cidade" id="cidade" placeholder="digite a cidade" maxlength="28" required>
+          <input class="form-control" type="text" name="cidade" id="cidade" placeholder="digite..." maxlength="28" required>
         </label> 
       </div>
 
@@ -53,62 +53,87 @@
 
     </div>
 
+    
     <div class="row">
 
-      <div >
+      <div>
         <label class="form-label" for="resideCasa">
-          <input type="radio" name="local" id="resideCasa" checked>Casa
+          <input class="form-check-input" type="radio" name="local" id="resideCasa" checked> Casa
         </label>
       </div>
 
-      <div class="">
+      <div>
         <label class="form-label" for="resideApt">
-          <input type="radio" name="local" id="resideApt" >Apartamento
+          <input class="form-check-input" type="radio" name="local" id="resideApt" > Apartamento
         </label>
       </div>
 
     </div>
+
+     
 
     <div class="row">
 
       <div class="col">
         <label class="form-label" for="endereço">Endereço:
-          <textarea class="form-control" placeholder="máx 200 caracteres" name="endereço" id="endereço" cols="20" rows="2" maxlength="200" required></textarea>
+          <textarea class="form-control" placeholder="máx 200 caracteres" name="endereço" id="endereço" cols="20" rows="1" maxlength="200" required></textarea>
         </label> 
       </div>
       
       <div class="col">
         <label class="form-label" for="resumo">Resumo do currículo: <br>
-          <textarea class="form-control" name="resumo" id="resumo" cols="25" placeholder="máx. 1000 caracteres" rows="2" maxlength="1000" required></textarea>
+          <textarea class="form-control" name="resumo" id="resumo" cols="25" placeholder="máx. 1000 caracteres" rows="1" maxlength="1000" required></textarea>
         </label> 
       </div>
 
     </div>
 
 
+    <div class="row">
+      <label class="form-label" for="cargo">Cargo:
+        <input class="form-control" type="text" placeholder="digite..." name="cargo" id="cargo" maxlength="40" required>
+      </label>
+    </div>
 
-    <label class="form-label" for="cargo">Cargo:
-      <input type="text" name="cargo" id="cargo" maxlength="40" required>
-    </label>
+    <div class="row">
+      <label class="form-label" for="desCargo">Descrição do Cargo:
+        <input class="form-control" type="text" placeholder="digite..." name="descriçãoCargo" id="desCargo" maxlength="500" required>
+      </label>
+    </div>
 
-    <label class="form-label" for="desCargo">Descrição do Cargo:
-      <input type="text" name="descriçãoCargo" id="desCargo" maxlength="500" required>
-    </label>
-    <br>
-    <label class="form-label" for="dia">Data de início: dia:
-      <input type="number" name="date" id="dia">
-    </label> <b>/</b> 
 
-    <label class="form-label" for="mes"> mês: 
-      <input type="number" name="date" id="mes">
-    </label> <b>/</b> 
+    <div class="row">
 
-    <label class="form-label" for="ano"> ano: 
-      <input type="number" name="date" id="ano">
-    </label>
+      <div>
+        <label class="form-label" for="dia">Data de início:</label>
+      </div>
 
-    <button id="botao" type="submit"> enviar</button>
-    <button type="reset">limpar forms</button>
+      <div class="col">
+          <input class="form-control" placeholder="dia" type="number" name="date" id="dia">
+      </div>
+
+      <div class="col">
+        <label class="form-label" for="mes"> 
+          <input class="form-control" placeholder="mês" type="number" name="date" id="mes">
+        </label>
+      </div>
+
+      <div class="col">
+        <label class="form-label" for="ano"> 
+          <input class="form-control"type="number" placeholder="ano" name="date" id="ano">
+        </label>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-2">
+        <button class="btn btn-outline-primary" id="botao" type="submit"> enviar</button>
+      </div>
+
+      <div class="col-2">
+        <button class="btn btn-outline-danger" type="reset">limpar forms</button>
+      </div>
+    </div>
 
   </form> 
   
