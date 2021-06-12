@@ -12,7 +12,7 @@
 <div class="container">
 
   <div class="row">
-    <header class="col">
+    <header class="col centerr">
       <h1>Currículo</h1>
     </header>
   </div>
@@ -26,7 +26,7 @@
     </div>
 
     <div class="row">
-      <label class="form-label" for="email">Email:
+      <label class="form-label" for="email">Email: *
         <input class="form-control" type="email" name="email" id="email" placeholder="digite o email" maxlength="50" required>
       </label> 
     </div>
@@ -34,20 +34,20 @@
     <div class="row">
 
       <div class="col">
-        <label class="form-label" for="cpf">CPF:
+        <label class="form-label" for="cpf">CPF: *
           <input class="form-control" type="text" name="cpf" id="cpf" placeholder="digite..." maxlength="11" required>
         </label>
       </div>
 
       <div class="col">
-        <label class="form-label" for="cidade">Cidade:
+        <label class="form-label" for="cidade">Cidade: *
           <input class="form-control" type="text" name="cidade" id="cidade" placeholder="digite..." maxlength="28" required>
         </label> 
       </div>
 
       <div class="col">
-        <label class="form-label" for="estado">Estado:
-          <select class="btn btn-secondary form-control" name="estado" id="estado"></select>
+        <label class="form-label" for="estado">Estado: 
+          <select class="btn btn-light form-control" name="estado" id="estado"></select>
         </label>
       </div>
 
@@ -55,83 +55,85 @@
 
     
     <div class="row">
-
-      <div>
-        <label class="form-label" for="resideCasa">
-          <input class="form-check-input" type="radio" name="local" id="resideCasa" checked> Casa
-        </label>
-      </div>
-
-      <div>
-        <label class="form-label" for="resideApt">
-          <input class="form-check-input" type="radio" name="local" id="resideApt" > Apartamento
-        </label>
-      </div>
+      
+        <div class="col">
+          <label class="form-label posição" for="resideCasa">
+            <input class="form-check-input" type="radio" name="local" id="resideCasa" checked>  Casa
+          </label>
+        </div>
+        
+        <div class="col">
+          <label class="form-label" for="resideApt">
+            <input class="form-check-input" type="radio" name="local" id="resideApt" > Apartamento
+          </label>
+        </div>
 
     </div>
 
      
 
     <div class="row">
-
-      <div class="col">
-        <label class="form-label" for="endereço">Endereço:
-          <textarea class="form-control" placeholder="máx 200 caracteres" name="endereço" id="endereço" cols="20" rows="1" maxlength="200" required></textarea>
-        </label> 
-      </div>
       
-      <div class="col">
-        <label class="form-label" for="resumo">Resumo do currículo: <br>
-          <textarea class="form-control" name="resumo" id="resumo" cols="25" placeholder="máx. 1000 caracteres" rows="1" maxlength="1000" required></textarea>
-        </label> 
-      </div>
+        <div class="col centerr">
+          <label class="form-label" for="endereço">Endereço: *
+            <textarea class="form-control" placeholder="máx 200 caracteres" name="endereço" id="endereço" cols="25" rows="2" maxlength="200" required></textarea>
+          </label> 
+        </div>
+        
+        <div  class="col centerr">
+          <label class="form-label" for="resumo">Resumo do currículo: *
+            <textarea class="form-control" name="resumo" id="resumo" cols="25" placeholder="máx. 1000 caracteres" rows="2" maxlength="1000" required></textarea>
+          </label> 
+        </div>
 
     </div>
 
 
     <div class="row">
-      <label class="form-label" for="cargo">Cargo:
+      <label class="form-label" for="cargo">Cargo: *
         <input class="form-control" type="text" placeholder="digite..." name="cargo" id="cargo" maxlength="40" required>
       </label>
     </div>
 
     <div class="row">
-      <label class="form-label" for="desCargo">Descrição do Cargo:
+      <label class="form-label" for="desCargo">Descrição do Cargo: *
         <input class="form-control" type="text" placeholder="digite..." name="descriçãoCargo" id="desCargo" maxlength="500" required>
       </label>
     </div>
 
+    
+      <p class="p">Data de início: *</p>
+    
 
     <div class="row">
-
-      <div>
-        <label class="form-label" for="dia">Data de início:</label>
-      </div>
-
+      
       <div class="col">
-          <input class="form-control" placeholder="dia" type="number" name="date" id="dia">
+        <label class="form-label" for="dia">
+          <input class="form-control width" placeholder="dia" type="number" name="date" id="dia">
+        </label>
       </div>
 
       <div class="col">
         <label class="form-label" for="mes"> 
-          <input class="form-control" placeholder="mês" type="number" name="date" id="mes">
+          <input class="form-control width" placeholder="mês" type="number" name="date" id="mes">
         </label>
       </div>
 
       <div class="col">
-        <label class="form-label" for="ano"> 
+        <label class="form-label width" for="ano"> 
           <input class="form-control"type="number" placeholder="ano" name="date" id="ano">
         </label>
       </div>
-    </div>
 
+    </div>
+ 
     <div class="row">
       <div class="col-2">
         <button class="btn btn-outline-primary" id="botao" type="submit"> enviar</button>
       </div>
 
       <div class="col-2">
-        <button class="btn btn-outline-danger" type="reset">limpar forms</button>
+        <button class="btn btn-outline-danger" type="reset">reset</button>
       </div>
     </div>
 
@@ -139,7 +141,7 @@
   
 </div>  
 
-<script src="/script.js"></script>
+<script src="/dia_02/script.js"></script>
 
 </body>
 </html>
