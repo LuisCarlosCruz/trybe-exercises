@@ -12,13 +12,8 @@ body {
   padding-left: 80%;
 }
 .width {
-  width: 100px;
+  width: 200px;
 }
 .p {
   margin: auto;
-}
-
-/* ------ */
-.borda {
-  border: solid black 1px;
 }
