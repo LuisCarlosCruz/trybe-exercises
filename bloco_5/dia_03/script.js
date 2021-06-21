@@ -13,8 +13,7 @@ function createDaysOfTheWeek() {
 
 createDaysOfTheWeek();
 
-// Escreva seu código abaixo.
-// 1-
+// QUESTÃO 01
 const dezDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];;
 
 function criaDia () {
@@ -36,21 +35,33 @@ function criaDia () {
 }
 criaDia();
 
-/* 
-2- Implemente uma função que receba como parâmetro a string "Feriados" e crie dinamicamente um botão com o nome "Feriados".
-Adicione a este botão a ID "btn-holiday" .
-Adicione este botão como filho/filha da tag <div> com classe "buttons-container" . */
+// QUESTÃO 02
 
+function criaBotao (holi) {
 
-// function botao (folga) {
+ let botaum = document.createElement('button');
+  document.querySelector('.buttons-container').appendChild(botaum);
+  botaum.innerText = holi;
+  botaum.id = 'btn-holiday';  
 
-//  let botaum = document.createElement(GamepadButton)
-//   body.appendChild(botaum);
-//   botaum.className
-   
-// }
+// QUESTAO 03
+                /* botaum.addEventListener('click', function() {
+                  let holidays = document.querySelectorAll('.holiday');
+                  
+                  if (holidays.contains('holiday')){
+                    
+                      holidays.style.backgroundColor = "red";
 
-// botao('Feriados');
+                    if(holidays){
+                      holidays.style.backgroundColor = "rgb(238,238,238)";
+                    }
 
+                  }
+                
+                } ); */
+}
+criaBotao('Feriados');
 
+// QUESTÃO 03
 
+/* Implemente uma função que adicione ao botão "Feriados" um evento de "click" que muda a cor de fundo dos dias que possuem a classe "holiday". É interessante que este botão possua também a lógica inversa. Ao ser clicado novamente ele retorna à configuração inicial com a cor "rgb(238,238,238)" . */
