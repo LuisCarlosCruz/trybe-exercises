@@ -1,0 +1,29 @@
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: xx-large;
+  }
+  h2 {
+    font-size: x-large;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  figure {
+    margin: 5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: rgb(208, 208, 252);
+    font-size: xx-large;
+    text-align: center;
+    position: static;
+    max-width: 768px;
+  }
+}
