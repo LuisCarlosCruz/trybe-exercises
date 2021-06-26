@@ -176,3 +176,12 @@ function everyoneWasBornOnSecXX() {
 };
 
 assert.strictEqual(everyoneWasBornOnSecXX(), expectedResult3);
+
+/* ------------------------QUESTÃO 06------------------------ */
+
+const expectedResult4 = true;
+
+function someBookWasReleaseOnThe80s() {
+  return books.some((element) => element.releaseYear > 1979 && element.releaseYear < 1990);
+};
+assert.strictEqual(someBookWasReleaseOnThe80s(), expectedResult4);
