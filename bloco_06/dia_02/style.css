@@ -1,0 +1,19 @@
+body {
+  margin-bottom: 10px;
+}
+.container {
+  background-color: rgb(225, 245, 255);
+}
+.centerr {
+  display: flex;
+  justify-content: center;
+}
+.posição {
+  padding-left: 80%;
+}
+.width {
+  width: 200px;
+}
+.p {
+  margin: auto;
+}

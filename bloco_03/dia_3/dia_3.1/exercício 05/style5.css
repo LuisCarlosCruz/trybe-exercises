@@ -1,0 +1,57 @@
+.orden-list {
+  background-color: rgb(240, 199, 87);
+}
+
+ol.orden-list .par {
+  color: darkgreen;
+}
+
+ol.orden-list .impar {
+  text-transform: uppercase;
+  color: white;
+}
+
+.h {
+  color: red;
+}
+
+h1.italico {
+  font-size: 40px;
+  border: solid black 1px;
+}
+
+li {
+  font-size: 20px;
+}
+
+ol em {
+  font-weight: 600;
+}
+
+.cor-azul {
+  color: blue;
+}
+.fundo-rosa {
+  background-color: pink;
+}
+
+.link-1 :hover {
+  color: orange;
+  font-weight: 600;
+}
+.link-2 :hover {
+  color: rgb(5, 97, 5);
+  font-weight: 600;
+}
+.link-3 :hover {
+  color: black;
+  font-weight: 600;
+}
+.link-4 :hover {
+  color: yellow;
+  font-weight: 600;
+}
+.link-5 :hover {
+  color: rgb(3, 223, 3);
+  font-weight: 600;
+}
