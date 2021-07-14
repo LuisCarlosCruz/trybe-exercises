@@ -16,7 +16,10 @@ const obj3 = {
 };
 
 describe('Objetos', () => {
-  test('Compare dois objetos', () => {
-    expect(verif(obj1, obj2)).toEqual(true);
+  it('Compare dois objetos', () => {
+    expect(obj3).not.toEqual(obj2);
+  });
+  it('Compare dois objetos', () => {
+    expect(obj1).toEqual(obj2);
   });
 });
