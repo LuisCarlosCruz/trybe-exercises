@@ -1,0 +1,16 @@
+.center {
+  text-align: center;
+}
+
+li:hover {
+  background-color: violet;
+  font-size: 25px;
+}
+
+li:active {
+  font-family: Indie Flower, cursive;
+}
+
+li {
+  list-style: none;
+}
