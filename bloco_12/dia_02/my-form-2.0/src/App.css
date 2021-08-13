@@ -14,12 +14,16 @@ body {
 }
 
 .divF,
-.titleH3 {
+.titleH2 {
   display: flex;
   flex-direction: row;
   align-items: center;
   flex-flow: column;
   justify-content: center;
+}
+
+.titleH2 {
+  color: rgb(255, 200, 20);
 }
 
 .inputCheck {
@@ -30,4 +34,9 @@ body {
 .selectState {
   display: flex;
   align-items: center;
+}
+
+.selectInput {
+  flex-wrap: wrap;
+  margin-bottom: 15px;
 }
