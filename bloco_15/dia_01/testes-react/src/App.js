@@ -42,7 +42,8 @@ export default class App extends React.Component {
         />
         <input id="btn-back" type="button" value="Voltar" />
         {/* <h3 data-testid="id-h3">{ `Email: ${saveEmail} ` }</h3> */}
-        <ValidEmail email={ saveEmail } />
+
+        { (saveEmail.length === 0) ? '' : <ValidEmail email={ saveEmail } /> }
       </div>
     );
   }
