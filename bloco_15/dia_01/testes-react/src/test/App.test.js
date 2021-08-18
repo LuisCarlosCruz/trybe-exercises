@@ -18,7 +18,7 @@ describe('Verifica montagem dos input e dos buttons', () => {
 
   it('Verifica montagem dos buttons', () => {
     const { getAllByRole } = render(<App />);
-    const btns = getAllByRole(/button/i); 
+    const btns = getAllByRole(/button/i); // i -> case insentive usado na busca com regex
     expect(btns.length).toBe(2);
   });
 
