@@ -1,0 +1,3 @@
+SELECT JOB_ID, AVG(SALARY) media FROM employees
+GROUP BY JOB_ID
+ORDER BY media DESC;
