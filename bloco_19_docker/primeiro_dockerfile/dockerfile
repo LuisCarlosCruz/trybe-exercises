@@ -1,0 +1,8 @@
+# imagem base p/ criar a nossa imagem
+FROM nginx  
+
+# coloca esse arq index dentro da imagem criada
+# são arq q a app precisará p/ rodar
+COPY index.html /usr/share/nginx/html
+
+
