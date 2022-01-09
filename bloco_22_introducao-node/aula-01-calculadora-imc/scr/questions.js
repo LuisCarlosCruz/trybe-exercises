@@ -4,9 +4,9 @@ const readLine = require('readline-sync');
 const nome = readLine.question('Qual o seu nome? ');
 
 //perg altura
-const altura = readLine.question('Qual a sua altura(m) ? ');
+const altura = readLine.questionFloat('Qual a sua altura (ex.: 1.75m)? ');
 
 // perg peso kg
-const peso = readLine.question('Qual o seu peso? ');
+const peso = readLine.questionFloat('Qual o seu peso? ');
 
 module.exports = { nome, altura, peso };

@@ -4,4 +4,4 @@ const {nome, altura, peso} = require('./questions.js');
 const imc = peso / (altura * 2);
 
 // imprime
-console.log(`${nome} seu IMC é ${imc}`);
+console.log(`${nome} seu IMC é ${imc.toFixed(2)}`);
