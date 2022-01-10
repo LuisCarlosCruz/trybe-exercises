@@ -1,0 +1,31 @@
+const listaCapitalEstados = [
+  "Rio Branco",
+  "Maceió",
+  "Macapá",
+  "Manaus",
+  "Salvador",
+  "Fortaleza",
+  "Brasília",
+  "Vitória",
+  "Goiânia",
+  "São Luiz",
+  "Cuiabá",
+  "Campo Grande",
+  "Belo Horizonte",
+  "Belém",
+  "João Pessoa",
+  "Curitiba",
+  "Recife",
+  "Terezina",
+  "Rio de Janeiro",
+  "Natal",
+  "Porto Alegre",
+  "Porto Velho",
+  "Boa Vista",
+  "Florianópolis",
+  "São Paulo",
+  "Aracajú",
+  "Palmas"
+];
+
+module.exports = { listaCapitalEstados };
