@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node verificaNumero.js",
     "test": "mocha tests/"
   },
   "keywords": [],

@@ -6,17 +6,17 @@ describe('Verifica parâmetro', () => {
   describe('Verifica número', () => {
     it('É um número positivo', () => {
       const numPositivo = verificaNumero(2);
-      expect(numPositivo).to.be('postivo');
+      expect(numPositivo).to.be.equal('positivo');
     });
 
     it('É um número negativo', () => {
       const numNegativo = verificaNumero(-2);
-      expect(numNegativo).to.be('negativo');
+      expect(numNegativo).to.be.equal('negativo');
     });
 
     it('É um número neutro', () => {
       const numNeutro = verificaNumero(0);
-      expect(numNeutro).to.be('neutro');
+      expect(numNeutro).to.be.equal('neutro');
     });
   });
 });
