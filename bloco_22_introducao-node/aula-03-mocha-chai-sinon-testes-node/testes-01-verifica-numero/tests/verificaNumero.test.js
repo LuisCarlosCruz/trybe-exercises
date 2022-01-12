@@ -18,5 +18,10 @@ describe('Verifica parâmetro', () => {
       const numNeutro = verificaNumero(0);
       expect(numNeutro).to.be.equal('neutro');
     });
+
+    it('É um número válido', () => {
+      const numIsNan = verificaNumero('a');
+      expect(numIsNan).to.be.equal('o valor deve ser um número');
+    });
   });
 });
