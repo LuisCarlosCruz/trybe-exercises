@@ -3,7 +3,7 @@ const { verificaNumero } = require('../verificaNumero');
 
 describe('Verifica parâmetro', () => {
 
-  describe('Verifica número ', () => {
+  describe('Verifica número', () => {
     it('É um número positivo', () => {
       const numPositivo = verificaNumero(2);
       expect(numPositivo).to.be('postivo');
