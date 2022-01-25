@@ -4,10 +4,13 @@ const PORT = 3001;
 
 const error = require('./middleware/error');
 const createUser = require('./middleware/createUser.middleware');
+const getUserId = require('./middleware/getUserId.middleware');
 
 app.use(express.json());
 
 app.post('/users', createUser);
+
+app.get('/users/:id', getUserId);
 
 app.use(error);
 

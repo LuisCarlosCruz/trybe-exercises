@@ -1,4 +1,4 @@
-module.exports = (err, _req, res, _next) => {
+const error = (err, _req, res, _next) => {
 
   console.log(err.message);
 
@@ -6,3 +6,5 @@ module.exports = (err, _req, res, _next) => {
 
   return res.status(500).json({ message: 'Interal Error Server' });
 };
+
+module.exports = error;
