@@ -1,4 +1,6 @@
-const validate = (password, firstName, lastName, email) => {
+const connection = require('../models/connection');
+
+const validate = async (password, firstName, lastName, email) => {
 
   if (password.length < 6) {
     return {
@@ -28,7 +30,14 @@ const validate = (password, firstName, lastName, email) => {
     }
   }
 
-  return 'ok';
+  await connection.execute(
+ `INSERT INTO connectAPI.users (first_Name, last_Name, email, password_user)
+ VALUE (?,?,?,?)`, [firstName, lastName, email, password]);
+
+ const [userAdd] = await connection.execute(
+`SELECT * FROM connectAPI.users WHERE first_Name = ?`, [firstName]);
+  console.log(userAdd);
+  return userAdd;
 };
 
 module.exports = validate;
