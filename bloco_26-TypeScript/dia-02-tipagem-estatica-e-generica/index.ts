@@ -82,3 +82,48 @@ type address = {
   city: string;
   state: string;
 }
+
+// -------------------------------------------------------------------------
+
+
+// TYPE UNIONS
+
+// Crie um type union que represente os estados físicos da matéria: líquido, sólido ou gasoso.
+type states = "liquid" | "solid" | "gaseous";
+
+
+// Crie um type union que represente o documento identificador de uma pessoa que pode receber valores numéricos ou texto. Ex: “123.567.890-12” ou 123456789012.
+type doc = string | number;
+
+
+// Crie um type union que represente sistemas operacionais: linux, mac os ou windows.
+type SO = "linux" | "mac" | "window";
+
+
+// Crie um type union que represente as vogais do alfabeto.
+type vogais = "a" | "e" | "i" | "o" | "u";
+
+
+// -------------------------------------------------------------------------
+
+// CLASSES
+
+// Crie uma classe cujo objeto represente um Cachorro.
+interface Dog {
+  _name: string;
+  _color: string;
+  _age: number;
+  feature(): void;
+}
+
+class Dog {
+  constructor(name: string, color: string, age: number) {
+    this._name = name;
+    this._color = color;
+    this._age = age;
+  }
+
+  feature(): void {
+    console.log("Au Au");
+  }
+}
