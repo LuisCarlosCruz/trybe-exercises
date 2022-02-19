@@ -1,6 +1,6 @@
 "use strict";
-// Crie uma Enum que represente os dias da semana.
-// Seu valor deve ser número do dia.
+// ENUNS
+// Crie uma Enum que represente os dias da semana. Seu valor deve ser número do dia.
 var week;
 (function (week) {
     week[week["segunda"] = 1] = "segunda";
@@ -14,8 +14,7 @@ var week;
 console.log(week.sexta);
 console.log(week["quinta"]);
 console.log(week[2]);
-// Crie uma Enum que represente as cores do arco iris.
-// Seu valor deve ser o nome das cores em português.
+// Crie uma Enum que represente as cores do arco iris. Seu valor deve ser o nome das cores em português.
 var arcoIris;
 (function (arcoIris) {
     arcoIris["red"] = "vermelho";
@@ -28,8 +27,7 @@ var arcoIris;
 })(arcoIris || (arcoIris = {}));
 console.log(arcoIris.blue);
 console.log(arcoIris["red"]);
-// Crie uma Enum que represente as ações: salvar, imprimir, abrir, visualizar e fechar.
-// Seu valor deve ser do tipo inteiro.
+// Crie uma Enum que represente as ações: salvar, imprimir, abrir, visualizar e fechar. Seu valor deve ser do tipo inteiro.
 var Action;
 (function (Action) {
     Action[Action["save"] = 0] = "save";
@@ -40,8 +38,7 @@ var Action;
 })(Action || (Action = {}));
 console.log(Action["save"]); // 0
 console.log(Action["print"]); // 1
-// Crie uma Enum que represente os pontos cardeais: Norte, Leste, Sul e Oeste.
-// Seu valor deve ser a primeira letra do nome do ponto cardial.
+// Crie uma Enum que represente os pontos cardeais: Norte, Leste, Sul e Oeste. Seu valor deve ser a primeira letra do nome do ponto cardial.
 var Cardeais;
 (function (Cardeais) {
     Cardeais["North"] = "N";
@@ -51,3 +48,9 @@ var Cardeais;
 })(Cardeais || (Cardeais = {}));
 console.log(Cardeais.East);
 console.log(Cardeais["North"]);
+function sum(obj) {
+    const result = obj.x + obj.y;
+    console.log(result);
+}
+sum({ x: 10, y: 20 });
+// Crie um type para um objeto que represente um endereço.
