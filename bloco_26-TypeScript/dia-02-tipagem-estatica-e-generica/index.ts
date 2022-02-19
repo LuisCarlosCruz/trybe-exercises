@@ -102,3 +102,28 @@ type SO = "linux" | "mac" | "window";
 
 // Crie um type union que represente as vogais do alfabeto.
 type vogais = "a" | "e" | "i" | "o" | "u";
+
+
+// -------------------------------------------------------------------------
+
+// CLASSES
+
+// Crie uma classe cujo objeto represente um Cachorro.
+interface Dog {
+  _name: string;
+  _color: string;
+  _age: number;
+  feature(): void;
+}
+
+class Dog {
+  constructor(name: string, color: string, age: number) {
+    this._name = name;
+    this._color = color;
+    this._age = age;
+  }
+
+  feature(): void {
+    console.log("Au Au");
+  }
+}
