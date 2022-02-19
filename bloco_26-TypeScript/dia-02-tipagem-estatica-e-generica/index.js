@@ -53,4 +53,16 @@ function sum(obj) {
     console.log(result);
 }
 sum({ x: 10, y: 20 });
-// Crie um type para um objeto que represente um endereço.
+class Dog {
+    constructor(name, color, age) {
+        this._name = name;
+        this._color = color;
+        this._age = age;
+    }
+    feature() {
+        console.log("Au Au");
+    }
+}
+const animal = new Dog("Bob", "black", 3);
+console.log(animal);
+const speak = animal.feature();

@@ -127,3 +127,43 @@ class Dog {
     console.log("Au Au");
   }
 }
+
+const animal = new Dog("Bob", "black", 3);
+console.log(animal);
+
+const speak = animal.feature();
+
+
+// -------------------------------------------------------------------------
+
+// INTERFACE
+
+
+// Crie uma interface cujo objeto represente um Automóvel.
+interface Automovel {
+  marca: string;
+  modelo: string;
+  ano: number;
+  vendido: boolean;
+  status(): string;
+}
+
+
+// Crie uma interface cujo objeto represente um Felino.
+interface Felino {
+  name: string;
+  especie: string;
+  genero: string;
+  vivo: boolean;
+  nascimento: number;
+}
+
+
+// Crie uma interface cujo objeto represente uma Aeronave.
+interface Aeronave {
+  modelo: string;
+  porte: string;
+  rodas: number;
+  ano: number;
+  tipoVoo(): string;
+}
