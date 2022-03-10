@@ -1,10 +1,14 @@
 const express = require('express');
 
-require('dotenv').config();
-
 const app = express();
 
+const booksRouter = require('./routes/booksRouter');
+
+require('dotenv').config();
+
 app.use(express.json());
+
+app.use('/books', booksRouter);
 
 const PORT = process.env.PORT;
 
