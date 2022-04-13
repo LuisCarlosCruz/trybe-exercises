@@ -47,7 +47,6 @@ Validations:
   - A pessoa estudante deve possuir no máximo 4 notas de provas
   - A pessoa estudante deve possuir no máximo 2 notas de trabalhos
 
-
 </br>
 
 ## Exercício 3 : Crie uma interface que representará uma pessoa funcionária.
@@ -59,3 +58,17 @@ Attributes:
   - admissionDate: data de admissão
 Methods:
   - generateRegistration: retorna uma string única gerada como registro
+
+</br>
+
+## Exercício 4 : Crie uma classe cujos objetos representem uma disciplina lecionada na escola.
+Class: Subject
+
+Attributes:
+  - name: nome da disciplina
+Methods:
+  - Getters/Setters
+  - constructor: deve receber como parâmetro nome
+
+Validations:
+  - O nome tem que possuir no mínimo 3 caracteres
