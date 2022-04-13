@@ -29,6 +29,3 @@ class Person {
     }
 }
 exports.default = Person;
-const person = new Person('Maria', new Date('1980/01/25'));
-console.log(person.name);
-console.log(person.birthDate);
