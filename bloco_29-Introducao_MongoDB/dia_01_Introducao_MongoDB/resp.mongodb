@@ -1,0 +1,36 @@
+const database = 'BIOS_EXERCISES';
+
+use(database)
+
+// Exercício 01
+db.BIOS.find({ _id: 8 })
+
+// Exercício 02
+db.BIOS.find({_id:8}, {_id: 1, name: 1})
+
+// Exercício 03
+db.BIOS.find({_id:8}, {birth: 1, name: 1, _id:0})
+
+
+// Exercício 04
+db.BIOS.find({"name.first": "John"})
+
+// Exercício 05
+db.BIOS.find().limit(3)
+
+
+// Exercício 06
+db.BIOS.find().limit(2).skip(5)
+
+// Exercício 07
+db.BOOKS.countDocuments()
+
+// Exercício 08
+db.BOOKS.countDocuments({status: "PUBLISH"})
+
+// Exercício 09
+db.BOOKS.find({}, {title: 1, isbn: 1, pageCount: 1, _id: 0}).limit(3)
+
+// Exercício 10
+db.BOOKS.find({ status: "MEAP"}, {title:1 , authors: 1, status: 1, _id: 0}).skip(5)
+
